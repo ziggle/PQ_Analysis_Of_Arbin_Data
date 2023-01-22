@@ -43,12 +43,24 @@ The batteries were discharged using a constant current of 0.67 mA.
 
 # Analysis
 
-## Graphical Analysis
+## Graphical Analysis of Discharge Curve
+
+### Discharge Curve
 
 My objective with this testing was to determine the mean discharge curve for the 20 units under test. The curve is shown below.
 
 <p align="center" width="100%">
 <img src="Images/DischargePlot.png">
+</p>
+
+The man curve was the focus of this test. I used it to generate the SOC curve for this battery.
+
+### SOC Curve
+
+Given the mean discharge curve, we can determine the mean SOC.
+
+<p align="center" width="100%">
+<img src="Images/SOC.png">
 </p>
 
 ## Observations
